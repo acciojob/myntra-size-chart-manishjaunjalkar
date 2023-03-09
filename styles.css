@@ -1,2 +1,35 @@
+table{
+	display:grid;
+	
+}
+thead > tr{
+display:flex;
+flex-flow:rwo nowrap;
+gap:20px;
+border:2px solid red;
+background-color:grey;
+}
+thead > tr> th{
+	border: 2px solid blue;
+	width: 60px;
+	margin:10px;
+	padding:10px;
 
+	
+}
+tbody > tr{
+	display:flex;
+	gap:20px;
+	flex-flow:row nowrap;
+	border:2px solid red;
+	justify-content:right;
+	background-color: lightblue;
+}
+tbody > tr > td{
+	border: 2px solid blue;
+	width: 60px;
+	margin:10px;
+	padding:10px;
+	
+}
 /* Your CSS Code here. */
